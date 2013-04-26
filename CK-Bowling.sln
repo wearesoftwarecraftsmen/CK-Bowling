@@ -6,7 +6,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{184E5E35-4
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bowling", "Bowling\Bowling.csproj", "{C652D7F7-6C60-4DA7-A9D8-439B7DDD2DF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bowling.Specs", "Bowling.Specs\Bowling.Specs.csproj", "{FF4B3E92-FB26-4128-A47A-FD9F46056758}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C652D7F7-6C60-4DA7-A9D8-439B7DDD2DF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C652D7F7-6C60-4DA7-A9D8-439B7DDD2DF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C652D7F7-6C60-4DA7-A9D8-439B7DDD2DF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C652D7F7-6C60-4DA7-A9D8-439B7DDD2DF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF4B3E92-FB26-4128-A47A-FD9F46056758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF4B3E92-FB26-4128-A47A-FD9F46056758}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF4B3E92-FB26-4128-A47A-FD9F46056758}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF4B3E92-FB26-4128-A47A-FD9F46056758}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
